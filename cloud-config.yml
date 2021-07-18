@@ -1,16 +1,3 @@
 #cloud-config
- 
-rancher:
-network:
-interfaces:
-eth0:
-address: 192.168.1.181/24
-gateway: 192.168.1.1
-dhcp: false
-dns:
-nameservers:
-- 192.168.1.1
-- 8.8.8.8
- 
 ssh_authorized_keys:
 - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCjmEstiymdPvuKCK0ZEmbRM+YjmdyXUFUgZX7h7V5h+v+6vvNN7wNw1FD03q0eJJeFPpUW70OYLHETTT9u4EWy6S0sb7YWN9s5uFXPG1SXH7oIQ6Miemvz5DHrGNH1+vNrSfA1lw1hutcIqDTQ5MQi2Iyxo7SxIJsEDUYHm1RbGFeCUyoaZg3rEIYkhScWIlWJ6kPDXaDaW3f+/qk6rztADAFoWViIPPSMoTuo+0mdjgDxf98dVze+pksU2fAvLXY5XyWRyry+iKA1bUEOEqAxXfNTjS9eu1UjNn9amRxrrIuE6rUCRG6Qb9Vg+Jcts9OcYpTxlQrsOTv1pnozLZLhLcr+qPPM2yekQJ9MjHshCMaW/rLLxaAHnUiEtACzJAwPXjRoi0FeuAMKEUETl0Xjqh2wqEdP+GBmkG+6ryJsR6b4Gw1Veo2YkM9sjGmO+fmnwlPJBGqk90aJS8XrhrnW8WwNMGDZmMn0GYr5wnqaL85L1u6bqS4xk9qrDr6thXtuTX8+EzBRVxyIBv90Q+6k+espXHen8NBsOfhuRpyMbipfjaaC3uAHsVulSRIHU+6jjBa1br1hSwk/QVKer9IgHQJ1WMOgWG5gkXL0IWe59d7JnRo1569/iKoXYxj4Tl58KzSBAyLUtRF1fuY17RMwaFHslfCW8GpnYE1xGTpisw== jkalter66@gmail.com
